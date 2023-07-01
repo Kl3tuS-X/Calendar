@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.main_block{
+    width: 100%;
+}
+
+.calendar{
+    width: 30%;
+    background-color: #f3f3f3;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+    border: 1px solid #c0c0c0;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.calender_1{
+    display: inline-block;
+    margin-right: 5px;
+    width: 47%;
+}
+
+.calendar_2{
+    display: inline-block;    
+    width: 47%;
+}
+
+.calender_1 input{
+    width: 100%;
+}
+
+.calendar_2 input{
+    width: 100%;
+}
+
+.result button{
+    width: 100%;
+    padding: 10px;
+    color: #f3f3f3;
+    margin-top: 30px;
+    background-color: rgb(0, 255, 106);
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .2s linear;
+    font-weight: bolder;
+}
+
+.result button:hover{
+    background-color: rgb(38, 226, 116);
+} 
+
+#result-days{
+    background-color: #e4e3e3;
+    border: 1px solid #c0c0c0;
+    width: max-content;
+    text-align: center;
+    margin-top: 20px;
+    margin: auto;
+}
+
+#result-difference{
+    background-color: #e4e3e3;
+    border: 1px solid #c0c0c0;
+    width: max-content;
+    text-align: center; 
+    margin: auto;
+}

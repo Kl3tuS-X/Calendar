@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>IT Run - Задание | Abduvahobov Mirzoakbar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main_block"></div>
+  <div class="calendar">
+    <div class="calender_1">
+      <label for="start-date">Вводите Начальную Дату</label>
+      <br>
+      <input type="date" id="start-date">
+    </div>
+    <div class="calendar_2">
+      <label for="end-date">Вводите Последную Дату</label>
+      <br>
+      <input type="date" id="end-date">
+    </div>
+    <div class="result">
+      <button onclick="showDays()">Подтвердить</button>
+      <br>
+      <div id="result-days"></div>
+      <br>
+      <div id="result-difference"></div>
+    </div>
+  </div>
+  <script src="calendar.js"></script>
+</body>
+</html>
